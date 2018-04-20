@@ -141,7 +141,5 @@ void loop()
       digitalWrite(test_pin,test_pin_val);
     }
     flow_pin_old_state = flow_pin_new_state;
-
-
-  
+delay(1);
 }
